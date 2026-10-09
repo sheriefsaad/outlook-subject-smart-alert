@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Email Subject Smart Alert"/>
   <Description DefaultValue="Get an alert when an email subject does not match your configured keywords."/>
-  <IconUrl DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/assets/icon-128.png"/>
+  <IconUrl DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://sheriefsaad.github.io</AppDomain>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/taskpane.html"/>
+        <SourceLocation DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,13 +85,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Email Subject Smart Alert"/>
@@ -128,8 +128,8 @@
       </Hosts>
       <Resources>
         <bt:Urls>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/event.html"/>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/event.js"/>
+          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/event.html"/>
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://sheriefsaad.github.io/outlook-subject-smart-alert/dist/event.js"/>
         </bt:Urls>
       </Resources>
     </VersionOverrides>
